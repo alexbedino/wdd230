@@ -10,6 +10,8 @@ body {
 }
 
 header{
+  display:grid;
+  grid-template-rows: 50% 50%;
   text-align: center;
   background-color: #ffc8dd;
   color:black;
@@ -54,6 +56,8 @@ h2{
 }
 
 img{
+  grid-column: 1 / span 2;
+
   width:200px;
   float: left;
   padding: 30px;
@@ -63,10 +67,12 @@ img{
 }
 
 .title{
-  padding: 60px;
-  font-size: 80px;
+  grid-column: 2 / span 2;
+  align-self: start;
+  font-size: 70px;
   color: #a2d2ff;
   text-shadow: 2px 2px 4px #000000;
+
 }
 
 ul{
