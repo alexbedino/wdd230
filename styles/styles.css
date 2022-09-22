@@ -1,6 +1,6 @@
 *{
 margin: 0;
-padding:0;
+padding:2px;
 box-sizing: border-box;
 }
 
@@ -11,7 +11,8 @@ body {
 
 header{
   display:grid;
-  grid-template-rows: 30% 30% 30%;
+  grid-template-columns: repeat(3,1fr);
+  grid-template-rows:[row1-start] 25% [row1-end] 100px [third-line] auto [last-line];
   text-align: center;
   background-color: #ffc8dd;
   color:black;
@@ -58,19 +59,16 @@ h2{
 
 img{
   grid-column: 1 / span 2;
-
   width:200px;
   float: left;
-  padding: 30px;
-  margin: -10px;
   border-radius: 8px;
   box-shadow: 6px 6px 2px 1px rgba(0, 0, 255, .2);
 }
 
 .title{
-  grid-column: 2 / span 2;
-  align-self: start;
+  grid-column: 2/ span 3;
   font-size: 60px;
+  float: right;
   color: #a2d2ff;
   text-shadow: 2px 2px 4px #000000;
 
