@@ -1,0 +1,19 @@
+@media only screen and (min-width: 1028px){
+    
+    main {
+		grid-template-columns: 1fr 1fr 1fr;
+	}
+
+	main section:nth-child(3) {
+		grid-column: span 1;
+	}
+
+    header h1{
+        font-size: 70px;
+    }
+
+    header h2{
+        font-size: 50px
+    }
+}
+}/* end of media query */
