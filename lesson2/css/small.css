@@ -48,15 +48,21 @@ main {
 }
 
 main section h2 {
-	color: #536878;
+    margin-top:0;
+    padding: 0;
+	color: #f2e9e4;
     max-width: 100%;
-    font-size: 20px;
+    font-size: 25px;
+    display:block;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    background-color: #4A4E69;
 }
 
 main section {
 	margin: 0.5rem;
 	border: 1px solid #bbb;
-	padding: 0 1rem;
+	padding: 0;
 	background-color: #f2e9e4;
     border-radius: 5px;
 }
@@ -80,4 +86,9 @@ footer {
     border-radius: 5px;
     font-family: 'Oswald', sans-serif;
     font-size: 20px;
+}
+
+a {
+    text-decoration: none;
+    font-weight:bold;
 }
