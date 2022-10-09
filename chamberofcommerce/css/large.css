@@ -66,6 +66,22 @@
         height: 600px;
     }
 
+    .spotlight-1{
+        grid-row: 1;
+        grid-column: 1;
+    }
+
+    .spotlight-2{
+        grid-row: 2;
+        grid-column: 1;
+    }
+
+    .spotlight-3{
+        display: block;
+        grid-row: 3;
+        grid-column: 1;
+    }
+
     .weather{
         grid-column:1;
         grid-row: 2;

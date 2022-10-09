@@ -165,7 +165,7 @@ main section {
 .spotlight {
     display: grid;
     grid-template-columns: auto;
-    grid-template-rows: auto auto;
+    grid-template-rows: auto auto auto;
 } 
 
 
