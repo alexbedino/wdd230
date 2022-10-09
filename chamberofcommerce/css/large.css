@@ -23,10 +23,11 @@
 
     .time {width: 90%;}
 
+    nav button {display: none;}
 
-    nav ul li a {
-        font-size: 20px;
-    }
+    nav ul{border-left: 1px solid rgba(0,0,0,0.2);}
+
+    nav ul li a {font-size: 20px;border:none; border-right: 1px solid rgba(0,0,0,0.2);}
 
 
     main p {

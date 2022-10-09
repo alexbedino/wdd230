@@ -28,14 +28,16 @@
 		grid-template-columns: auto auto auto;;
 	}
 
+	nav button {display: none;}
 
-		nav ul {
+	nav ul#primaryNav {
 			display: flex;
 			margin-left: 2%;
+			border-left: 1px solid rgba(0,0,0,0.2);
 		}
 
 
-		nav ul li a{padding: .5rem 1rem; font-size: large;}
+	nav ul li a{padding: .5rem 1rem; font-size: large; border:none; border-right: 1px solid rgba(0,0,0,0.2);}
 
 	.event {
 		grid-column: 1 / 3;
