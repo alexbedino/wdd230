@@ -1,0 +1,42 @@
+<header>
+        <section class="upper">
+            <img src="images/logo.jpg" alt="logo">
+            <div class="callus"> <!-- Placing the title together in the same div so they occupy the second column of the grid-->
+                <p>Call us: +66932435717</p>
+                <p>alex.bedino@gmail.com</p>
+            </div>
+
+            <div class="connectwithus">
+                <a href="www.facebook.com">Connect with us</a>
+            </div>
+
+            <div class="join">
+                <a href="join.html" class="button">Join us</a>
+            </div>
+        </section>
+
+        <div class="time"></div>
+
+    </header>
+
+.upper{
+    padding: .5rem 2%;
+    background-color: #8DC5FE;
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    font-size: 10px;
+}
+header div {margin-left: 10px;}
+header h1 {margin: 0;color:#F1FAEE;}
+header h2 {margin: 0; font-weight: normal;color:#A8DADC;}
+
+header section img{
+    width: 100px;
+
+
+}
+
+
+header .callus {grid-column: 2; align-self: center;}
+header .connectwithus {grid-column: 3; align-self: center;}
+header .join {grid-column: 4; align-self: center;}
