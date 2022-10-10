@@ -1,0 +1,41 @@
+*{
+
+}
+
+li {
+    font-size: 20px;
+  }
+
+  li button {
+    font-size: 20px;
+    float: right;
+    color: #666;
+  }
+
+main {
+    background-color: azure;
+    min-height: 100px;
+}
+.content {
+    max-width: 500px;
+    margin: auto;
+    background-color: azure;
+  }
+
+body {
+    background-color: #003566;
+}
+
+h1 {
+    background-color: #001D3D;
+    color: #FFC300;
+    text-align: center;
+}
+
+.interactive {
+    text-align: center;
+}
+
+label{
+    font-size: large;
+}
