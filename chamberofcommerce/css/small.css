@@ -62,14 +62,16 @@ header {
 
 
 .social {
-	margin-right: 1.5rem;
-    width: 6rem;
 	height: auto;
     display: flex;
 }
 
+.social img{
+    width: 20px;
+}
+
 .fa {
-    padding: 3px;
+    padding: 2px;
 }
 
 
@@ -143,8 +145,8 @@ main p {
 }
 
 main img {
-    width: 128px;
-    margin-top: 10px;
+        width: 100%;
+        height: auto;
 }
 
 .color-scheme {

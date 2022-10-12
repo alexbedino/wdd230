@@ -21,6 +21,10 @@
     
     }
 
+    .social img{
+        width: 30px;
+    }
+
     .time {width: 90%;}
 
     nav button {display: none;}
