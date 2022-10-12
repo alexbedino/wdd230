@@ -50,25 +50,28 @@ header {
 	height: auto;
 }
 
-.headings {
+.navigation {
 	display: flex;
 	flex-direction: column;
 	margin-left: .5rem;
 }
 
-.headings h1 {
+.navigation h1 {
 	font-size: 1.5rem;
 }
 
 
 .social {
 	margin-right: 1.5rem;
+    width: 6rem;
+	height: auto;
+    display: flex;
 }
 
-.social svg {
-	width: 25px;
-	height: auto;
+.fa {
+    padding: 2px;
 }
+
 
 .time {text-align: center; font-size: 20px; padding: 5px; width: 90%; background-color: #FFB703;}
 /*----------- NAVIGATION --------------*/
@@ -202,7 +205,7 @@ footer {
 
 }
 
-container {
+.container {
     display: flex;
 	align-items: center;
 	justify-content: space-between;
