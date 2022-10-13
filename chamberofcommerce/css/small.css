@@ -22,10 +22,6 @@ p {
     font-family: 'Open Sans', sans-serif;
 }
 
-h1,h2 {
-    font-family: 'Oswald', sans-serif;
-}
-
 
 
 /*----------- HEADER --------------*/
@@ -125,28 +121,30 @@ nav ul.open {display:block;}
 #hamburgerBtn.open span:nth-child(2){display: block;}
 /*----------- MAIN --------------*/
 main {
-    padding-left: 2%;
-    min-height: 10rem;
     background-color: #F1FAEE;
     text-align:center;
     width: 1800px;
 }
 
-main h1 {
+div#message{background-color: gold;}
+div.showme{display: block;}
+div.hideme{display: none;}
+
+
+h1 {
+    font-family: 'Tangerine', serif;
+    text-align: center;
     font-size: 34px;
-    text-align: left;
-    
 }
 
 main p {
-    margin-left: 12px;
-    align-self: center;
-    font-size: 12px;
+    font-size: 1rem;
+
 }
 
 main img {
         width: 100%;
-        height: auto;
+        height: 100%;
 }
 
 .color-scheme {
@@ -158,13 +156,67 @@ main section {
     display:grid;
     grid-template-columns: auto;
     grid-gap: 10px;
+    position: relative;
 
 }
+
+.hero h1{
+    position: absolute;
+    left: 30%;
+}
+
+.hero button{
+    position: absolute;
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    left: 10rem;
+    top: 8rem;
+
+}
+
+.join-us button{
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    -webkit-transition-duration: 0.4s; /* Safari */
+
+}
+
+.join-us button:hover{
+    transition-duration: 0.4s;
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+
+.news-release p{
+    font-size: 17px;
+}
+.hero button:hover{
+    transition-duration: 0.4s;
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
 .hero, .event, .weather, .news-release, .spotlight, .join-us {
     background-color: aliceblue;
-    height: 200px;
+    height: auto;
     width: 100%;
-    border: medium dashed green;
+    border: medium solid black;
 }
 .hero {
     grid-row: 1;
@@ -173,9 +225,23 @@ main section {
 .event {
     grid-row: 2;
 }
+.event p{
+    text-align: center;
+}
+
+.event h1{
+    text-align: center;
+}
+
 
 .weather {
     grid-row: 3;
+    min-height: auto;
+}
+
+.weather img{
+    width: 50%;
+    height: 50%;
 }
 
 .news-release {
@@ -186,7 +252,13 @@ main section {
     display: grid;
     grid-template-columns: auto;
     grid-template-rows: auto auto auto;
+    height: auto;
 } 
+
+.spotlight img{
+    width: 50%;
+    height: 50%;
+}
 
 
 .spotlight-3, .join-us {
