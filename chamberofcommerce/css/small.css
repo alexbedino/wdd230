@@ -162,7 +162,9 @@ main section {
 
 .hero h1{
     position: absolute;
-    left: 30%;
+    left: 25%;
+    text-shadow: 2px 2px 4px #000000;
+    color: aliceblue;
 }
 
 .hero button{
@@ -174,7 +176,7 @@ main section {
     text-align: center;
     text-decoration: none;
     display: inline-block;
-    font-size: 16px;
+    font-size: 12px;
     margin: 4px 2px;
     cursor: pointer;
     -webkit-transition-duration: 0.4s; /* Safari */
@@ -215,15 +217,18 @@ main section {
 .hero, .event, .weather, .news-release, .spotlight, .join-us {
     background-color: aliceblue;
     height: auto;
-    width: 100%;
+    width: auto;
     border: medium solid black;
 }
+
+
 .hero {
     grid-row: 1;
 }
 
 .event {
     grid-row: 2;
+
 }
 .event p{
     text-align: center;
@@ -231,6 +236,7 @@ main section {
 
 .event h1{
     text-align: center;
+    margin-bottom: 2px;
 }
 
 
@@ -296,8 +302,13 @@ footer {
 
 address{
     display:block;
+    
 }
 
+address a{
+color: white;
+text-decoration: none;
+}
 footer .right{
     margin-right: 20px;
 }

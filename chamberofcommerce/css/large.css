@@ -59,8 +59,9 @@
     }
 
     .hero button{
-        left: 40rem;
+        left: 30rem;
         top: 20rem;
+        font-size: 16px;
     }
 
     .spotlight{
