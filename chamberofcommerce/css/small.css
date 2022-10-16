@@ -179,10 +179,8 @@ main section {
     font-size: 12px;
     margin: 4px 2px;
     cursor: pointer;
-    -webkit-transition-duration: 0.4s; /* Safari */
     left: 10rem;
     top: 8rem;
-
 }
 
 .join-us button{
@@ -196,8 +194,6 @@ main section {
     font-size: 16px;
     margin: 4px 2px;
     cursor: pointer;
-    -webkit-transition-duration: 0.4s; /* Safari */
-
 }
 
 .join-us button:hover{
