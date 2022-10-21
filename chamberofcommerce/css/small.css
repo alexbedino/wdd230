@@ -23,7 +23,6 @@ p {
 }
 
 
-
 /*----------- HEADER --------------*/
 header {
 	padding: 5px 0;
@@ -172,7 +171,7 @@ main section {
     background-color: #4CAF50; /* Green */
     border: none;
     color: white;
-    padding: 15px 32px;
+    padding: 7px 16px;
     text-align: center;
     text-decoration: none;
     display: inline-block;
@@ -180,7 +179,7 @@ main section {
     margin: 4px 2px;
     cursor: pointer;
     left: 10rem;
-    top: 8rem;
+    top: 6rem;
 }
 
 .join-us button{
@@ -191,7 +190,7 @@ main section {
     text-align: center;
     text-decoration: none;
     display: inline-block;
-    font-size: 16px;
+    font-size: 8px;
     margin: 10px 2px;
     cursor: pointer;
 }
@@ -214,7 +213,8 @@ main section {
     background-color: aliceblue;
     height: auto;
     width: auto;
-    border: medium solid black;
+    border: 2px solid black;
+    border-radius: 4px;
 }
 
 

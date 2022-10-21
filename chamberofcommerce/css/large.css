@@ -2,7 +2,7 @@
 @media only screen and (min-width: 64rem) {
 
     header, footer {
-        max-width: 90%;
+        max-width: 80%;
         margin:auto;
     }
 
@@ -11,20 +11,25 @@
     }
 
     nav, main {
-        max-width: 90%;
+        max-width: 80%;
     }
 
+
+    
     .logo img{
         width: 250px;
     
     
     }
 
+    .social {
+        margin: 0;
+    }
     .social img{
         width: 30px;
     }
 
-    .time {width: 90%;}
+    .time {width: 80%;}
 
     nav button {display: none;}
 
@@ -105,6 +110,10 @@
         width: 100%;
         height: 200px;
         
+    }
+
+    .join-us button{
+        font-size: 15px;
     }
 
     .join-us p{
