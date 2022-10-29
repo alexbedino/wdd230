@@ -159,6 +159,10 @@ main section {
 
 }
 
+.gallery  {
+    display:flex;
+}
+
 .hero h1{
     position: absolute;
     left: 25%;
