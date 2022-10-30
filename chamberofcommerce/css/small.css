@@ -161,6 +161,15 @@ main section {
 
 .gallery  {
     display:flex;
+    padding: 5px;
+}
+
+.gallery p{
+    padding: 5px;
+}
+
+figcaption {
+    font-size: large;
 }
 
 .hero h1{
