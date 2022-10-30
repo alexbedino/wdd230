@@ -154,4 +154,12 @@
         filter: none;
         transition: 1s ease;
         }
+
+    .gallery {
+        max-width: 60%;
+    }
+
+    .gallerytitle {
+        font-size: 58px;
+    }
 }
