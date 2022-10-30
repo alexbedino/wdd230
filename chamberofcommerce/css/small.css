@@ -105,7 +105,7 @@ nav ul li a:hover {
     background-color: #FFB703;
     color: #333;
 }
-nav ul li.active a {
+.active {
     background-color: #FFB703;
     color: #fff;
 }
@@ -161,6 +161,7 @@ main section {
 
 .gallery  {
     display:flex;
+    flex-direction: column;
     padding: 5px;
 }
 

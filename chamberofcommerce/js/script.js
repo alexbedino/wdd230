@@ -31,3 +31,4 @@ if (dayNumber == 1 || dayNumber == 2 ) {
 	element.classList.add("hideme")
 
 }
+
