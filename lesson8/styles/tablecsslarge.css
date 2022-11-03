@@ -11,5 +11,6 @@
         border: 1px solid purple;
         letter-spacing: 2px;
         font-size: 1.6rem;
+        box-shadow: 10px 10px 8px #888888;
       }
 }
