@@ -1,0 +1,55 @@
+html {
+    font-family: sans-serif;
+  }
+  
+h1{
+    text-align: center;
+    font-size: 18px;
+}
+  table {
+    border-collapse: collapse;
+    letter-spacing: 1px;
+    font-size: 0.8rem;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  td, th {
+    border: 1px solid purple;
+    padding: 10px 20px;
+  }
+  
+  th {
+    background-color: pink;
+  }
+  
+  td {
+    text-align: center;
+  }
+  
+  tr:nth-child(even) td {
+    background-color: plum;
+  }
+  
+  tr:nth-child(odd) td {
+    background-color: violet;
+  }
+  
+  caption {
+    padding: 10px;
+    caption-side: bottom;
+  }
+
+  #header {
+    background-color: blueviolet;
+    font-weight: bold;
+  }
+
+  .container {
+    max-width: 500px;
+    margin: auto;
+  }
+
+  #active{
+    background-color: azure;
+  }

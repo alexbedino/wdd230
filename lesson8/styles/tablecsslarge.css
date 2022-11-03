@@ -1,0 +1,15 @@
+/* 64em is also 1028px (if basefont is 16px) */
+@media only screen and (min-width: 64rem) {
+
+    h1{
+        text-align: center;
+        font-size: 36px;
+    }
+
+    table {
+        border-collapse: collapse;
+        border: 1px solid purple;
+        letter-spacing: 2px;
+        font-size: 1.6rem;
+      }
+}
