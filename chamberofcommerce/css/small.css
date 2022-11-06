@@ -336,7 +336,11 @@ footer .left{
     padding: 5px;
 }
 
-
+.form_title{
+    margin-top: 0px;
+    padding-top: 30px;
+    font-size: 30px;
+}
 /*FORM*/
 input, select, textarea {
     width: 50%;
