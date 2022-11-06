@@ -109,6 +109,16 @@
 	.copy {
 		font-size: 14px;
 	}
+
+	.col-25 {
+		font-size: medium;
+		width: 25%;
+	  }
+
+	.col-75 {
+		width: 75%;
+	  }
+
 }
 
-	
+
