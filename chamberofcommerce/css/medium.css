@@ -25,7 +25,7 @@
 		width: 25px;
 	}
 	
-	main section{
+	.grid-container{
 		font-size: 24px;
 		display: grid;
 		grid-template-columns: auto auto auto;;

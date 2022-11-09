@@ -38,7 +38,7 @@
     nav ul li a {font-size: 20px;border:none; border-right: 1px solid rgba(0,0,0,0.2);}
 
 
-    main section{
+    .grid-container{
         font-size: 24px;
         grid-template-columns: 200px auto auto 200px;
     }

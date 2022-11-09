@@ -154,7 +154,7 @@ main img {
     justify-content: center
 }
 
-main section {
+.grid-container {
     padding: 10px;
     display:grid;
     grid-template-columns: auto;
