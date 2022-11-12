@@ -162,8 +162,12 @@
     .gallerytitle {
         font-size: 58px;
     }
-
+/*-- FORM --*/
     .form_title{
         font-size: 60px;
+    }
+
+    form label.sbs{
+        padding: .4rem 0;
     }
 }

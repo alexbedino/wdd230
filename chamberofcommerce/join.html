@@ -70,83 +70,34 @@
 
         
         <h1 class="form_title">Fill the form to send your join request</h1>
-        <div class="container_form">
-            <form action="thankyou.html">
-            <div class="row">
-              <div class="col-25">
-                <label for="fname">First Name</label>
-              </div>
-              <div class="col-75">
-                <input type="text" id="fname" name="firstname" placeholder="Your name.." required>
-              </div>
-            </div>
-            <div class="row">
-              <div class="col-25">
-                <label for="lname">Last Name</label>
-              </div>
-              <div class="col-75">
-                <input type="text" id="lname" name="lastname" placeholder="Your last name.." required>
-              </div>
-            </div>
-            <div class="row">
-                <div class="col-25">
-                  <label for="title">Business Title</label>
-                </div>
-                <div class="col-75">
-                  <input type="text" id="title" name="title" placeholder="Your business title">
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-25">
-                  <label for="email">Email</label>
-                </div>
-                <div class="col-75">
-                  <input type="email" id="email" name="email" placeholder="...@gmail.com" required>
-                </div>    
-            </div>
-            <div class="row">
-                <div class="col-25">
-                  <label for="tel">Cell phone number</label>
-                </div>
-                <div class="col-75">
-                  <input type="tel" id="tel" name="tel" required>
-                </div>
-            </div>
-            <div class="row">
-              <div class="col-25">
-                <label>Business Name</label>
-              </div>
-              <div class="col-75">
-                <input type="text" id="businessname" required>
-              </div>
-            </div>
-            <div class="row">
-              <div class="col-25">
-                <label for="membership">Membership</label>
-              </div>
-              <div class="col-75">
-                <select id="membership" name="membership">
-                  <option value="np">NP Membership</option>
-                  <option value="bronze">Bronze Membership</option>
-                  <option value="silver">Silver Membership</option>
-                  <option value="gold">Gold Membership</option>
-                </select>
-              </div>
-            </div>
-            <div class="row">
-              <div class="col-25">
-                <label for="subject">Business description</label>
-              </div>
-              <div class="col-75">
-                <textarea id="subject" name="subject" placeholder="Describe your business"></textarea>
-              </div>
-            </div>
-            <br>
-            <div class="row">
-              <input type="submit" value="Submit">
-            </div>
+            <form method="get" action="thankyou.html">
+              <fieldset>
+                <legend>Your contact information</legend>
+                <label class="top">First Name <input type="text" name="firstname" placeholder="Your name.." required></label>
+                <label class="top">Last Name <input type="text" name="lastname" placeholder="Your last name.." required></label>
+                
+                <label class="top">Business Title <input type="text" name="title" placeholder="Your business title"></label>
+                
+                <label class="top">Email <input type="email" name="email" placeholder="someone@gmail.com" required> </label>
+                
+                <label class="top">Cell number <input type="tel" name="tel" required></label>
+                
+                <label class="top">Business Name <input type="text" required></label>
+                
+              <fieldset>
+                <legend>Membership information</legend>
+                <div>Membership</div>
+                  <label class="sbs"><input type="radio" name="membership" value="np"> NP Membership</label>
+                  <label class="sbs"><input type="radio" name="membership" value="bronze"> Bronze Membership</label>
+                  <label class="sbs"><input type="radio" name="membership" value="silver"> Silver Membership</label>
+                  <label class="sbs"><input type="radio" name="membership" value="gold"> Gold Membership</label>
+
+                <label class="top" id="descriptionform">Business description <input type="text" required></label>
+              </fieldset>  
+              <br>
+              <input type="submit" value="Join Us" class="submitBtn" id="thankyou">
+              </fieldset>
             </form>
-        </div>
     </main>
     
 <!-- FOOTER HERE -->   
