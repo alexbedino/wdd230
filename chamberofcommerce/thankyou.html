@@ -20,12 +20,67 @@
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Tangerine">
 </head>
 <body>
+	<header>
+        
+        <div class="logo">
+            <picture>
+                <img src="images/logo.webp" alt="chamber logo">
+            </picture>
+            <div class="navigation">
+                <nav>
+                    <button id="hamburgerBtn"><span>&#9776;</span><span>X</span></button>
+                    <ul id="primaryNav">
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="discover.html">Discover</a></li>
+                        <li><a href="#">Directory</a></li>
+                        <li><a href="join.html" class="active">Join</a></li>
+                        <li><a href="#">Contact</a></li>    
+                    </ul>
+                </nav>
+            </div>
+        </div>
+        
+        <div class="social">
+            <a href="https://facebook.com" class="fa"><img src="images/fb.jpg" alt="facebook"> </a>
+            <a href="https://twitter.com" class="fa"><img src="images/twitter.jpg" alt="twitter"> </a>
+            <a href="https://linkedin.com" class="fa"><img src="images/linkedin.jpg" alt="linkedin"> </a>
+            
+        </div>
 
+        
+
+    </header>
+
+    <div class="time"></div>
     <main class="thankyou">
+
     <h1 class="thankyoutitle">Thank you for sending your request, you will receive a reply within 24 hours</h1>
     <button id="thankyou" onclick="window.location.href='index.html'">Go back to Home</button>
 
     </main>
-    
+    <footer>
+        <div class="container">
+        <div class="logo-footer">
+            <picture>
+                <img src="images/logo.webp" alt="chamber logo">
+            </picture>
+
+            <address class="left">
+                468 Tha Duea <br>Doi Tao - Chiang Mai
+            </address>
+        </div>
+
+
+
+        <address class="right">
+            info@doitaochamber.it<br>
+            Ph: +66932435717<br>
+            <a href="https://goo.gl/maps/PkqxHQTWXZ8LakSu8">🚩Location Map</a><br>
+        </address>
+    </div>
+        <div class="copy">&copy; 2022 Doi Tao Chamber of Commerce | Alex Bedino | WDD 230 Project | <span id="lastModified"></span> 📚</div>
+    </footer>
+    <script src="js/script.js"></script>
+    <script src="js/date.js"></script>
 </body>
 </html>

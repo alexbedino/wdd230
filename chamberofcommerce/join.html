@@ -70,14 +70,14 @@
 
         
         <h1 class="form_title">Fill the form to send your join request</h1>
-            <form method="get" action="thankyou.html">
+            <form method="get" action="thankyou.html" id="login-form">
               <fieldset>
                 <legend>Your contact information</legend>
                 <label class="top">First Name <input type="text" name="firstname" placeholder="Your name.." required></label>
                 <label class="top">Last Name <input type="text" name="lastname" placeholder="Your last name.." required></label>
                 
-                <label class="top">Business Title <input type="text" name="title" placeholder="Your business title"></label>
-                
+                <label class="top">Business Title <input id="username" type="text" name="title" placeholder="min 7 letters, no numbers"></label>
+                <p id="businesstitle-err">Please enter a valid business title</p>
                 <label class="top">Email <input type="email" name="email" placeholder="someone@gmail.com" required> </label>
                 
                 <label class="top">Cell number <input type="tel" name="tel" required></label>
@@ -92,9 +92,10 @@
                   <label class="sbs"><input type="radio" name="membership" value="silver"> Silver Membership</label>
                   <label class="sbs"><input type="radio" name="membership" value="gold"> Gold Membership</label>
 
-                <label class="top" id="descriptionform">Business description <input type="text" required></label>
+                <label class="top" id="descriptionform">Business description <input type="text"></label>
               </fieldset>  
               <br>
+              <input type="hidden" name="startdate" id="todayDate">
               <input type="submit" value="Join Us" class="submitBtn" id="thankyou">
               </fieldset>
             </form>
@@ -123,6 +124,7 @@
     </div>
         <div class="copy">&copy; 2022 Doi Tao Chamber of Commerce | Alex Bedino | WDD 230 Project | <span id="lastModified"></span> 📚</div>
     </footer>
-    <script src="js/script.js"></script>
+    <script src="js/date.js"></script>
+    <script src="js/regex.js"></script>
 </body>
 </html>

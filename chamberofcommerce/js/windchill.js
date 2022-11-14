@@ -11,3 +11,5 @@ if(tempNumber<= 50 && speedNumber >3){
 } else {
     document.getElementById("chill").textContent = "No Wind Chill"
 }
+
+`Welcome back ${firstName}! You last visited on <strong>${lvdate}</strong>.`
