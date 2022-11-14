@@ -433,9 +433,15 @@ form label.top input:required:valid{
 
 /*directory page*/
 
+.directory h2{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 18px;
+}
+
 .cards {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    align-items: center;
   }
   
   .cards section {
@@ -448,12 +454,11 @@ form label.top input:required:valid{
     align-items: center;
   }
   .cards section > p {
-    min-height: 60px;
+    min-height: 30px;
   }
   
   .cards img {
-    width: auto;
-      max-width: 325px;
+    max-width: 150px;
     box-shadow: 0 0 30px #777;
     height: 200px;
     border: 1px solid #333;
@@ -508,3 +513,62 @@ form label.top input:required:valid{
   .cards h2{
     padding: 2px;
   }
+
+  .list {
+	display: flex;
+	flex-direction: column;
+}
+
+.list section {
+	display: flex;
+	align-items: center;
+    max-width: 60%;
+    margin: 0;
+}
+
+.grid section {
+	flex-direction: column;
+	text-align: center;
+}
+
+.grid section > * {
+	margin: 0.1rem;
+}
+
+.list section {
+	flex-direction: row;
+	justify-content: left;
+    flex-basis:auto
+}
+
+.list section > * {
+	margin: auto;
+	text-align: left;
+}
+
+.list section img {
+	display: none; /* smaller viewports only */
+    margin: auto;
+}
+
+.list section p{
+    font-size: small;
+}
+
+
+#grid, #list {
+    background-color: #04AA6D;
+    color: white;
+    padding: 12px 100px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    text-align: center;
+    margin-bottom: 20px;
+    margin-top: 20px;
+  }
+
+  #grid:hover, #list:hover {
+    color: yellow;
+  }
+
