@@ -44,8 +44,8 @@
                     <ul id="primaryNav">
                         <li><a href="index.html">Home</a></li>
                         <li><a href="discover.html">Discover</a></li>
-                        <li><a href="directory.html">Directory</a></li>
-                        <li><a href="join.html" class="active">Join</a></li>
+                        <li><a href="directory.html" class="active">Directory</a></li>
+                        <li><a href="join.html">Join</a></li>
                         <li><a href="#">Contact</a></li>    
                     </ul>
                 </nav>
@@ -66,39 +66,9 @@
     <div class="time"></div>
    
 <!-- CONTENT HERE -->
-    <main>
-
-        
-        <h1 class="form_title">Fill the form to send your join request</h1>
-            <form method="get" action="thankyou.html" id="login-form">
-              <fieldset>
-                <legend>Your contact information</legend>
-                <label class="top">First Name <input type="text" name="firstname" placeholder="Your name.." required></label>
-                <label class="top">Last Name <input type="text" name="lastname" placeholder="Your last name.." required></label>
-                
-                <label class="top">Business Title <input id="username" type="text" name="title" placeholder="min 7 letters, no numbers"></label>
-                <p id="businesstitle-err">Please enter a valid business title</p>
-                <label class="top">Email <input type="email" name="email" placeholder="someone@gmail.com" required> </label>
-                
-                <label class="top">Cell number <input type="tel" name="tel" required></label>
-                
-                <label class="top">Business Name <input type="text" required></label>
-                
-              <fieldset>
-                <legend>Membership information</legend>
-                <div>Membership</div>
-                  <label class="sbs"><input type="radio" name="membership" value="np"> NP Membership</label>
-                  <label class="sbs"><input type="radio" name="membership" value="bronze"> Bronze Membership</label>
-                  <label class="sbs"><input type="radio" name="membership" value="silver"> Silver Membership</label>
-                  <label class="sbs"><input type="radio" name="membership" value="gold"> Gold Membership</label>
-
-                <label class="top" id="descriptionform">Business description <input type="text"></label>
-              </fieldset>  
-              <br>
-              <input type="hidden" name="startdate" id="todayDate">
-              <input type="submit" value="Join Us" class="submitBtn" id="thankyou">
-              </fieldset>
-            </form>
+    
+    <main class="directory">
+        <div class="cards"></div>
     </main>
     
 <!-- FOOTER HERE -->   
@@ -124,8 +94,8 @@
     </div>
         <div class="copy">&copy; 2022 Doi Tao Chamber of Commerce | Alex Bedino | WDD 230 Project | <span id="lastModified"></span> 📚</div>
     </footer>
-    <script src="js/date.js"></script>
-    <script src="js/regex.js"></script>
     <script src="js/script.js"></script>
+    <script src="js/directory.js"></script>
+
 </body>
 </html>

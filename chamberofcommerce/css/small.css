@@ -369,6 +369,7 @@ form label.top, form div{
 
 form label.top input, form label.top select{
     -webkit-appearance: none;
+    appearance: none;
     display:block;
     font-size: 1rem;
     border: 2px solid #555;
@@ -428,4 +429,82 @@ form label.top input:required:valid{
     padding-left: 16px;
     margin-top: 0px;
     display: none;
+  }
+
+/*directory page*/
+
+.cards {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+  }
+  
+  .cards section {
+    margin: 0.25rem;
+    padding: 0.35rem;
+    background-color: #edf2f4;
+    border: 1.5px solid #8d99ae;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .cards section > p {
+    min-height: 60px;
+  }
+  
+  .cards img {
+    width: auto;
+      max-width: 325px;
+    box-shadow: 0 0 30px #777;
+    height: 200px;
+    border: 1px solid #333;
+  }
+  
+  .cards li > img {
+    width: auto;
+    height: 30px;
+  }
+  
+  
+  .cards .caption {
+    position: absolute;
+    top: 1.5rem;
+    right: 2rem;
+    border: 1px solid #ccc;
+    background-color: lightyellow;
+    padding: 0.25rem;
+    display: grid;
+    align-items: center;
+    grid-template-columns: 1rem 1fr;
+  }
+  
+  .cards .caption h6 {
+    position: absolute;
+    top: -2.3rem;
+    left: -0.25rem;
+  }
+  
+  .cards .caption > div {
+    width: 0.75rem;
+    height: 0.75rem;
+    border: 1px solid #bbb;
+  }
+  
+  .cards .caption > p {
+    font-size: 0.75rem;
+  }
+  
+  .cards .most {
+    background-color: #bed;
+  }
+  
+  .cards .fav {
+    background-color: skyblue;
+  }
+  
+  .cards .own {
+    background-color: rosybrown;
+  }
+  
+  .cards h2{
+    padding: 2px;
   }
