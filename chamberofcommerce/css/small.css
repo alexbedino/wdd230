@@ -536,9 +536,9 @@ form label.top input:required:valid{
 }
 
 .list section {
-	flex-direction: row;
+	flex-direction: column;
 	justify-content: left;
-    flex-basis:auto
+    flex-basis:auto;
 }
 
 .list section > * {
@@ -552,8 +552,15 @@ form label.top input:required:valid{
 }
 
 .list section p{
-    font-size: small;
+    font-size: x-small;
+    text-align: center;
 }
+
+.list section h2{
+    font-size: small;
+    text-align: center;
+}
+
 
 
 #grid, #list {

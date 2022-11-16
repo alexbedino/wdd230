@@ -173,7 +173,22 @@
 
 /*-- DIRECTORY--*/
 
-.list{
-    width: 75%;
+.list section{
+    width: 500px;
 }
 
+.grid section{
+    height: 400px;
+}
+
+.list section p{
+    font-size: small;
+    text-align: center;
+}
+
+.list section h2{
+    font-size: medium;
+    text-align: center;
+}
+
+}
