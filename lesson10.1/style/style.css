@@ -1,0 +1,14 @@
+* {
+    text-align: center;
+}
+
+main {
+    width: 500px;
+    height: 500px;
+    margin: auto;
+    border: solid black 2px;
+}
+
+figcaption {
+    text-transform: capitalize;
+}
