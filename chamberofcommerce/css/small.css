@@ -133,7 +133,7 @@ div.hideme{display: none;}
 h1 {
     font-family: 'Tangerine', serif;
     text-align: center;
-    font-size: 34px;
+    font-size: 30px;
 }
 
 h2 {
@@ -199,6 +199,7 @@ figcaption {
     left: 50%;
     top: 50%;
     border-radius: 5px;
+    display: none;
 }
 
 .button{
@@ -259,6 +260,7 @@ figcaption {
 .weather {
     grid-row: 3;
     min-height: auto;
+    padding: 10px;
 }
 
 .weather img{
