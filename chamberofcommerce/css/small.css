@@ -193,11 +193,11 @@ figcaption {
     text-align: center;
     text-decoration: none;
     display: inline-block;
-    font-size: 12px;
+    font-size: 16px;
     margin: 4px 2px;
     cursor: pointer;
-    left: 10rem;
-    top: 6rem;
+    left: 50%;
+    top: 50%;
 }
 
 .join-us button{
@@ -579,3 +579,10 @@ form label.top input:required:valid{
     color: yellow;
   }
 
+footer p{
+    font-size: small;
+}
+
+footer p a{
+    color: white;
+}
