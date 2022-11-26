@@ -92,12 +92,13 @@ nav ul {
 
 nav ul li a {
     display: block;
-    color: #555;
+    color: #fff;
     padding: .8rem 2vw;
     text-decoration: none;
     font-size: 14px;
     text-align: center;
-    border-top: 1px solid rgba(0,0,0,0.5)
+    font-weight: 600;
+    border-top: 2px solid rgba(0,0,0,0.5);
 }
 
 
