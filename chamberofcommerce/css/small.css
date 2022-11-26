@@ -105,12 +105,12 @@ nav ul li a {
 
 
 nav ul li a:hover {
-    background-color: #FFB703;
-    color: #555;
+    background-color: green;
+    color: white;
 }
 .active {
-    background-color: #FFB703;
-    color: #555;
+    background-color: green;
+    color: white;
 }
 
 nav ul {display: none;}
@@ -416,7 +416,7 @@ form label.top input:required:valid{
 .counter{
     width: 200px;
     height: 80px;
-    background-color: #904516;
+    background-color: green;
     color: #edf2f4;
     padding: 12px 20px;
     border-radius: 4px;
