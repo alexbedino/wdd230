@@ -15,7 +15,7 @@ header,nav,main,footer{
 /*----------- BODY --------------*/
 body {
     font-size: 16px;
-    background-color: #F1FAEE;
+    background-color: #fff;
 }
 
 p {
@@ -32,6 +32,7 @@ header {
 	max-width: 900px;
 	margin: 0 auto;
 	border-bottom: 1px solid #bbb;
+    background-color: #F1FAEE;
 }
 
 .logo {
@@ -59,6 +60,7 @@ header {
 .social {
 	height: auto;
     display: flex;
+    padding: 5px;
 }
 
 .social img{
