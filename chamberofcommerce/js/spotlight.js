@@ -34,7 +34,6 @@ fetch(data)
             address.textContent = business.address;
             phone.textContent = business.phone;
 
-            spotlight.appendChild(name);
             spotlight.appendChild(logo);
             spotlight.appendChild(address);
             spotlight.appendChild(phone);
