@@ -187,15 +187,16 @@ figcaption {
 
 .hero .button{
     position: absolute;
-    background-color: #4CAF50; /* Green */
+    background-color: #FFB703; /* Green */
     border: none;
-    color: white;
+    color: #023047;
+    font-weight: 800;
     padding: 7px 16px;
     text-align: center;
     text-decoration: none;
     display: inline-block;
     font-size: 20px;
-    margin: 4px 2px;
+    margin: 10px 2px;
     cursor: pointer;
     left: 50%;
     top: 20%;
@@ -204,14 +205,15 @@ figcaption {
 }
 
 .button{
-    background-color: #4CAF50; /* Green */
+    background-color: #FFB703; /* Green */
     border: none;
-    color: white;
+    color: #023047;
+    font-weight: 800;
     padding: 15px 32px;
     text-align: center;
     text-decoration: none;
     display: inline-block;
-    font-size: 16px;
+    font-size: 20px;
     margin: 10px 2px;
     cursor: pointer;
     border-radius: 5px;
@@ -657,6 +659,7 @@ button a{
 .contact-form input,
 .contact-form textarea {
     border: none;
+    display: block;
     outline: none;
     background-color: #023047;
     padding: 10px;
@@ -664,6 +667,7 @@ button a{
     color: #fff;
     border-radius: 0.4rem;
 }
+
 
 .contact-form textarea {
     resize: none;
@@ -690,9 +694,18 @@ button a{
     transition: 0.3s all linear;
 }
 
+
 .phone{
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     padding: 20px;
     background-color: #eee;
 }
+
+.labels{
+    color: white;
+    padding-bottom: 0;
+    margin-left: 0;
+    margin-bottom: -15px;
+}
+
