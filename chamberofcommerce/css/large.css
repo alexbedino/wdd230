@@ -175,7 +175,7 @@
         
         .color:hover{
         filter: grayscale(0%);
-        filter: gray;
+        filter: grey;
         -webkit-filter: grayscale(0%);
         filter: none;
         transition: 1s ease;

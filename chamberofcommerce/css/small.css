@@ -656,7 +656,7 @@ button a{
     display: grid;
     grid-template-columns: 1fr;
     background: #363953;
-    box-shadow: gray;
+    box-shadow: grey;
     border-radius: 0.5rem;
     overflow: hidden;
 }
