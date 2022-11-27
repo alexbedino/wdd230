@@ -125,8 +125,7 @@
     margin: auto;
     width: 100%;
     display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    gap: 1.5rem;
+    gap: 1rem;
     background: #363953;
     box-shadow: gray;
     border-radius: 0.5rem;
@@ -134,13 +133,8 @@
 }
 
 .contact-container{
-    grid-template-columns: repeat(2, 1fr);
-}
-
-.map iframe{
-    width: 300px;
-}
-
+    grid-template-columns: 1fr;
 }
 
 
+}
