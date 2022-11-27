@@ -127,7 +127,6 @@
     display: grid;
     gap: 1rem;
     background: #363953;
-    box-shadow: grey;
     border-radius: 0.5rem;
     overflow: hidden;
 }
