@@ -439,7 +439,7 @@ form label.top input:required:valid{
     
 }
 /* Thank you page */
-    #thankyou:hover{
+ /*   #thankyou:hover{
         color: yellow;
   }
 
@@ -452,7 +452,7 @@ form label.top input:required:valid{
     cursor: pointer;
     text-align: center;
     margin-bottom: 10px;
-  }
+  }*/
 
   .thankyoutitle{
     margin-top: 0;
@@ -699,6 +699,23 @@ iframe{
     border-radius: 5px;
 }
 
+#thankyou {
+    border: none;
+    color: white;
+    outline: none;
+    background-color: #e07700;
+    font-size: 2rem;
+    font-weight: 400;
+    text-transform: uppercase;
+    cursor: pointer;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+#thankyou:hover{
+    background: hsla(181, 100%, 44%, 0.8);
+    transition: 0.3s all linear;
+}
 
 .contact-form .send-button{
     border: none;
