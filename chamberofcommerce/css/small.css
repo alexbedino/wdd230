@@ -693,10 +693,12 @@ button a{
     height: 200px;
 }
 
-.map iframe{
-    height: 300px;
-    width: 300px;
+iframe{
+    height: 500px;
+    padding: 10px;
+    border-radius: 5px;
 }
+
 
 .contact-form .send-button{
     border: none;
