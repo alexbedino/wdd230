@@ -239,7 +239,7 @@ figcaption {
 .hero, .event, .weather, .news-release, .spotlight, .join-us {
     background-color: aliceblue;
     height: auto;
-    width: auto;
+    width: 100%;
     border: 1px solid black;
     border-radius: 4px;
     padding: 2px;
@@ -270,10 +270,26 @@ figcaption {
     padding: 10px;
 }
 
-.weather img{
-    width: 50%;
-    height: 50%;
+#weather_icon{
+    width: 35px;
+    height: 35px;
 }
+
+#weather_icon1{
+    width: 35px;
+    height: 35px;
+    padding: 5px;
+}
+#weather_icon2{
+    width: 35px;
+    height: 35px;
+    padding: 5px;
+}
+
+#weather_icon3{
+    width: 35px;
+    height: 35px;
+    padding: 5px;}
 
 .news-release {
     grid-row: 4;
