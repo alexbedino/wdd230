@@ -671,8 +671,9 @@ button a{
     margin: auto;
     display: grid;
     grid-template-columns: 1fr;
-    background: #363953;
+    background: #534a3654;
     border-radius: 0.5rem;
+    border: 2px solid #023047;
     overflow: hidden;
 }
 
@@ -694,10 +695,10 @@ button a{
     border: none;
     display: block;
     outline: none;
-    background-color: #023047;
+    background-color: #fff;
     padding: 10px;
     font-size: 0.9rem;
-    color: #fff;
+    color: #023047;
     border-radius: 0.4rem;
 }
 
@@ -711,6 +712,7 @@ iframe{
     height: 500px;
     padding: 10px;
     border-radius: 5px;
+    border: none;
 }
 
 #thankyou {
@@ -736,9 +738,10 @@ iframe{
     outline: none;
     background-color: #e07700;
     font-size: 1.2rem;
-    font-weight: 500;
+    font-weight: 600;
     text-transform: uppercase;
     cursor: pointer;
+    color: #363953;
 }
 
 .contact-form .send-button:hover{
@@ -755,7 +758,8 @@ iframe{
 }
 
 .labels{
-    color: white;
+    color: #023047;
+    font-weight: 800;
     padding-bottom: 0;
     margin-left: 0;
     margin-bottom: -5px;
