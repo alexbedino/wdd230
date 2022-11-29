@@ -374,6 +374,8 @@ footer .left{
 #login-form {
     width: 100%;
     padding: 20px;
+    background-color: #534a3654;
+    border-radius: 5px;
 }
 
 form {
@@ -387,7 +389,8 @@ form fieldset{
 }
 
 form legend{
-    color: #62310b;
+    color: #023047;
+    font-weight: 700;
     margin: 0 1rem;
     padding: 0 .5rem;
 }
@@ -417,7 +420,7 @@ form label.top input, form label.top select{
 form label.sbs{
     display: block;
     padding: .75rem;
-    color: rgb(69, 64, 65);
+    color: #000000;
     text-align: left;
     margin-left: 5px;
 }
@@ -433,9 +436,11 @@ form label.top input:required:valid{
 .containerform {
     display: grid;
     grid-template-columns: 1fr;
+    padding: 10px;
 }
 
 .membershipinfo{
+    width: 100%;
     color: #363953;
     padding: 20px;
     width: 50%;
@@ -578,7 +583,7 @@ form label.top input:required:valid{
 .list section {
 	display: flex;
 	align-items: center;
-    max-width: 60%;
+    width: 100%;
     margin: 0;
 }
 
@@ -717,11 +722,11 @@ iframe{
 
 #thankyou {
     border: none;
-    color: white;
+    color: #023047;
     outline: none;
     background-color: #e07700;
     font-size: 1.5rem;
-    font-weight: 400;
+    font-weight: 600;
     text-transform: uppercase;
     cursor: pointer;
     border-radius: 5px;
