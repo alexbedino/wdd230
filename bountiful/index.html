@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Bountiful Foods</title>
+<meta charset="UTF-8">
+<!-- TELLS PHONES NOT TO LIE ABOUT THEIR WIDTH & stops the font from enlarging when a phone is turned sideways-->
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+<meta name="description" content="Bountiful Foods Grocery Store Website, Carlsbad(CA)">
+<meta name="author" content="Alex Bedino">
+<link rel="stylesheet" href="css/normalize.css">
+<link rel="stylesheet" href="css/small.css">
+<link rel="stylesheet" href="css/medium.css">
+<link rel="stylesheet" href="css/large.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+
+<!-- Navbar -->
+<div class="top">
+  <div class="bar green card left-align large">
+    <a class="bar-item button hide-medium hide-large right padding-large hover-white large green" href="javascript:void(0);" onclick="myFunction()" title="Toggle Navigation Menu"><i class="fa fa-bars"></i></a>
+    <a href="index.html" class="bar-item button padding-large white">Home</a>
+    <a href="fresh.html" class="bar-item button hide-small padding-large hover-white">Fresh</a>
+    <a href="aboutus.html" class="bar-item button hide-small padding-large hover-white">About Us</a>
+  </div>
+
+  <!-- Navbar on small screens -->
+  <div id="navDemo" class="bar-block white hide hide-large hide-medium large">
+    <a href="fresh.html" class="bar-item button padding-large">Fresh</a>
+    <a href="aboutus.html" class="bar-item button padding-large">About Us</a>
+  </div>
+</div>
+
+<!-- Header -->
+<header class="container green center" style="padding:128px 16px">
+    <div class="banner">
+  <h1 class="margin jumbo">BOUNTIFUL FOODS</h1>
+  <p class="xlarge">Your Local Grocery Store in Carlsbad</p>
+    </div>
+  <a href="fresh.html" class="button bronze padding-large large margin-top">Make Your Drink</a>
+</header>
+
+<!-- First Grid -->
+<div class="row-padding padding-32 container">
+  <div class="content">
+    <div class="twothird">
+      <h1>Contact Us</h1>
+      <h5 class="padding-32">We are located in Legoland Carlsbad, at the center of attention!</h5>
+
+      <p class="text-grey">Address: One Legoland Dr, Carlsbad, CA 92008, United States</p>
+      <p class="text-grey">Phone: +1 760-851-5409</p>
+      <p class="text-grey">Email: bountifulfoods@foods.com</p>
+    </div>
+
+    <div class="third center">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d14681.017578088307!2d-117.312428130504!3d33.12421000401211!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80dc73d69e231bf3%3A0x1ebc75741330f7d8!2sLEGOLAND%20California!5e0!3m2!1sen!2sth!4v1670250059715!5m2!1sen!2sth" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </div>
+  </div>
+</div>
+
+<!-- Second Grid -->
+<div class="row-padding light-grey padding-32 container">
+  <div class="content">
+    <div class="third center">
+      <img class="southcoast" src="https://live.staticflickr.com/5745/23423295043_8d8669ca19_b.jpg" alt="soutcoast">
+    </div>
+
+    <div class="twothird">
+      <h1>South Coast</h1>
+      <h5 class="padding-32">The California South Coast region extends from Ventura County to the Mexican Border and includes the counties of Los Angeles, Orange and San Diego.</h5>
+
+      <p class="text-grey">It is known for its sandy beaches, surf-able waves, moderate climate, and large and diverse population. The region is defined by the coastal plains of several major rivers and is bounded by the Transverse Mountain Ranges that include the Santa Monica and Santa Susana Mountains. The south coast of California has extremely high levels of species diversity, many of which are unique to the region, and the greatest number of threatened and endangered species in the state.</p>
+
+      
+    </div>
+  </div>
+</div>
+
+<div class="container bronze center opacity padding-32">
+    <h2>Weather in <span id="place">city</span></h2>
+                <p>Current Temperature is <span id="currentTemp">00</span>&deg;</p>
+                <p>Current Wind Speed is <span id="windSpeed">xx</span>mph</p>
+                <img id="weather_icon" src="images/placeholder.png" alt="current weather" loading="lazy"><p id="chill">Wind Chill: N/A</p>
+                <div class="forecast"><h2>3 Days Forecast</h2>
+                <img id="weather_icon1" src="images/placeholder.png" alt="day1 forecast" loading="lazy"><img id="weather_icon2" src="images/placeholder.png" alt="day2 forecast" loading="lazy"><img id="weather_icon3" src="images/placeholder.png" alt="day3 forecast" loading="lazy">
+                </div>
+                <p class="disclaimer">Weather information kindly offered by <a href="https://openweathermap.org">Openweathermap.org</a></p>
+</div>
+
+<!-- Footer -->
+<footer class="container padding-32 center opacity">  
+  <div class="xlarge padding-32">
+    <i class="fa fa-facebook-official hover-opacity"></i>
+    <i class="fa fa-instagram hover-opacity"></i>
+    <i class="fa fa-snapchat hover-opacity"></i>
+    <i class="fa fa-pinterest-p hover-opacity"></i>
+    <i class="fa fa-twitter hover-opacity"></i>
+    <i class="fa fa-linkedin hover-opacity"></i>
+ </div>
+ <div class="copy">&copy; Bountiful Foods | Alex Bedino | WDD 230 Project | <span id="lastModified"></span> </div>
+</footer>
+<script src="js/script.js"></script>
+<script src="js/windchill.js"></script>
+<script src="js/weather.js"></script>
+<script src="js/forecast.js"></script>
+<script src="js/lastmodified.js"></script>
+</body>
+</html>
