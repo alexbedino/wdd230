@@ -1,10 +1,2 @@
-@media (min-width:601px){.col.m1{width:8.33333%}.col.m2{width:16.66666%}.col.m3,.quarter{width:24.99999%}.col.m4,.third{width:33.33333%}
-.col.m5{width:41.66666%}.col.m6,.half{width:49.99999%}.col.m7{width:58.33333%}.col.m8,.twothird{width:66.66666%}
-.col.m9,.threequarter{width:74.99999%}.col.m10{width:83.33333%}.col.m11{width:91.66666%}.col.m12{width:99.99999%}}
-
-@media (max-width:600px){.modal-content{margin:0 10px;width:auto!important}.modal{padding-top:30px}
-.dropdown-hover.mobile .dropdown-content,.dropdown-click.mobile .dropdown-content{position:relative}	
-.hide-small{display:none!important}.mobile{display:block;width:100%!important}.bar-item.mobile,.dropdown-hover.mobile,.dropdown-click.mobile{text-align:center}
-.dropdown-hover.mobile,.dropdown-hover.mobile .btn,.dropdown-hover.mobile .button,.dropdown-click.mobile,.dropdown-click.mobile .btn,.dropdown-click.mobile .button{width:100%}}
-
-@media (max-width:768px){.modal-content{width:500px}.modal{padding-top:50px}}
+@media (min-width:601px) {.third {width:34%;}.twothird {width:66%;} iframe{height: 400px; width: 200px;} .contact-container{grid-template-columns: 1fr 1fr;} .containerform {grid-template-columns: 1fr;} .membershipinfo{width: 300px;}}
+@media (max-width:600px) {.hide-small {display:none!important;}}
