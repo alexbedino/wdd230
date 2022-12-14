@@ -75,7 +75,7 @@ hr{border:0;border-top:1px solid #eee;margin:20px 0}
 .white,.hover-white:hover{color:#000!important;background-color:#fff!important}
 .bronze,.hover-black:hover{color:black!important; background-color: #bb8e5a49!important}
 .light-grey,.hover-light-grey:hover,.light-gray,.hover-light-gray:hover{color:#000!important;background-color:#FEFAE0!important}
-.text-grey,.hover-text-grey:hover,.text-gray,.hover-text-gray:hover{color:#757575!important}
+.text-grey,.hover-text-grey:hover,.text-gray,.hover-text-gray:hover{color:#000!important}
 
 /*--- About us Section --*/
 
