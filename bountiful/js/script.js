@@ -24,9 +24,10 @@ function myFunction() {
   const data7 = document.getElementById("summarydiv7");
   const datefield = document.querySelector(".time2");
   const now2 = new Date();
-  const fulldate2 = new Intl.DateTimeFormat("en-US", { dateStyle: "full" }).format(
-	now2
-);
+  const fulldate2 = new Intl.DateTimeFormat("en-US", { dateStyle: "full" }).format(now2);
+
+  const frdis1 = localStorage.getItem('fruit1');
+  const field1 = document.getElementById('order');
 
   function fun1(){
     data1.innerHTML = firstname.value;
@@ -39,7 +40,10 @@ function myFunction() {
     data6.innerHTML = fruit3.value;
     localStorage.setItem("fruit3", data6.value);
     data7.innerHTML = specialr.value;
-	datefield.innerHTML = `<em>${fulldate2}</em>`;
-
+	  datefield.innerHTML = `<em>${fulldate2}</em>`;
   }
+
+
+
+
 

@@ -1,2 +1,7 @@
-@media (min-width:993px) {.hide-large {display:none!important;} iframe{width: 600px; height: 300px;} .containerform {grid-template-columns: 2fr 1fr;}}
+@media (min-width:993px) {.hide-large {display:none!important;} iframe{width: 600px; height: 300px;} .containerform {grid-template-columns: 1fr 1fr;}     
+.fruits{display: block; position:relative;
+    z-index: 2;
+    width: 200px;
+    left: 60%;
+    bottom: 5%;}}
 @media (max-width:992px) and (min-width:601px) {.hide-medium {display:none!important;}}
