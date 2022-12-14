@@ -22,22 +22,24 @@ function myFunction() {
   const data5 = document.getElementById("summarydiv5");
   const data6 = document.getElementById("summarydiv6");
   const data7 = document.getElementById("summarydiv7");
-  const datefield = document.querySelector(".time");
-  const now = new Date();
-  const fulldate = new Intl.DateTimeFormat("en-US", { dateStyle: "full" }).format(
-	now
+  const datefield = document.querySelector(".time2");
+  const now2 = new Date();
+  const fulldate2 = new Intl.DateTimeFormat("en-US", { dateStyle: "full" }).format(
+	now2
 );
 
   function fun1(){
     data1.innerHTML = firstname.value;
     data2.innerHTML = cell.value;
     data3.innerHTML = email.value;
-	localStorage.setItem("email", email.value);
     data4.innerHTML = fruit1.value;
+    localStorage.setItem("fruit1", data4.value);
     data5.innerHTML = fruit2.value;
+    localStorage.setItem("fruit2", data5.value);
     data6.innerHTML = fruit3.value;
+    localStorage.setItem("fruit3", data6.value);
     data7.innerHTML = specialr.value;
-	datefield.innerHTML = `<em>${fulldate}</em>`;
+	datefield.innerHTML = `<em>${fulldate2}</em>`;
 
   }
 
